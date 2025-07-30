@@ -1,0 +1,118 @@
+/*產品的圖片*/
+
+.product-row {
+display: flex;
+flex-wrap: wrap;
+margin-left: -4px;
+margin-right: -4px;
+}
+
+
+.product-col {
+    
+    width: calc(100% / 12 * 6);
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+
+.del-price{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: normal;
+    color: #ADB5BD;
+    padding-left: 8px;
+}
+
+.product-color{
+    line-height: 1.5;
+    font-weight: 500;
+    color: #6C757D;
+    width: 160px;
+}
+
+
+.btn-product-size1.active,
+.btn-product-size1:hover {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #212529;
+
+}
+
+
+.btn-product-size1 {
+    border-radius: 4px;
+    font-weight: Medium;
+    border: 1px solid;
+    border-color: #DEE2E6;
+
+}
+
+.b-line{
+    border-bottom: 1px solid;
+    border-color: #DEE2E6;
+
+}
+
+
+.gap-8{
+    gap: 8px;
+}
+
+.gap-24{
+    gap: 24px;
+}
+
+.btw{
+    font-weight: 700;
+}
+
+img{
+    display: block;
+}
+
+.btw-row h4{
+    
+font-weight: 700;
+}
+
+.discount9{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; /* 文字與按鈕之間的間距 */
+    flex-wrap: wrap; 
+    height: 96px;
+}
+
+.discount9 h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.BG-G{
+      background-color: #E8FEC5;
+}
+
+.justify-center{
+    justify-content: center;    
+}
+
+.border-b{
+    border-bottom: solid 1px  #DEE2E6;
+}
+
+
+.footer-bg{
+    background: #F8F9FA;
+}
+
+.copyright{
+    color: #6C757D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}

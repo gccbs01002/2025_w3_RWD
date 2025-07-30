@@ -1,0 +1,45 @@
+.category .active {
+    color: var(--primary-400);
+}
+
+
+.page-items .active {
+    background-color: #C0FA73;
+    font-weight: 400;
+}
+
+
+.page-items .btn {
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.copyright{
+    color: #6C757D;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.align-end{
+	align-items: flex-end;
+}
+
+.justify-center{
+    justify-content: center;    
+}
+
+.border-b{
+    border-bottom: solid 1px  #DEE2E6;
+}
+
+
+.footer-bg{
+    background: #F8F9FA;
+}
+
+.btn.active{
+    background-color: #C0FA73;
+}
