@@ -216,7 +216,7 @@ margin、padding*/
 	}
 	.header{
 		padding: 87px 0;
-		background-image: url(/img/hero-sm.png);
+		background-image: url("/img/hero-sm.png");
  	}
 	.p-md-24{
 		padding: 24px;
