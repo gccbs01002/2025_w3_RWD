@@ -497,9 +497,10 @@ a {
 
 
 .intro img {
-	width: 1076px;
-	margin-right: -110px;
-	margin-left: -100px;
+	 width: 100%;
+  max-width: 1076px;
+  display: block;
+  margin: 0 auto;
 }
 
 .mb-4{
@@ -577,6 +578,7 @@ a {
 	}
 	.mb-md-24 {
 		margin-bottom: 24px;
+	}
 	.mb-md-32 {
 		margin-bottom: 32px;
 	}
@@ -596,6 +598,7 @@ a {
 		margin-bottom: 4px;
 	.mb-sm-8 {
 		margin-bottom: 8px;
+	}
 	}
 }
 
@@ -633,6 +636,14 @@ padding-bottom: 24px;
 }
 
 
+@media(max-width:576px){
+	.btn{
+		padding: 8px 16px;
+	}
+}
+
+
+
 /*按鈕的通用樣式 	border: none;*/
 .btn{
 	border-radius: 4px;
@@ -643,6 +654,7 @@ padding-bottom: 24px;
 	cursor: pointer;
 	background-color: transparent;
 	border: none;
+	display: inline-block;
 }
 
 .btn-light{
